@@ -78,6 +78,7 @@ html,body{
     height: 60%;
     width: 100%;
     overflow: hidden;
+    
 }
 #image-div img{
     height: 100%;
@@ -262,45 +263,50 @@ html,body{
     right: 3%;
 }
 #page4{
-    height: 200vh;
+    height: 150vh;
     width: 100%;
     background-color: #C4BCB3;
     
 }
 #container{
-    padding-top: 40px;
+    height: 100%;
+    padding: 50px 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    
+  
 }
-#content-left{
-     
-    width: 70%;
-    border-right: 1px solid rgb(58, 57, 57);
-}
-#upper{
-    display: flex;
-    align-items: center;
-    justify-items: center;
+#content-left{  
+    width: 68%;
+    height: 100%;
+    padding: 20px 0 0 0;
     margin-left: 2%;
    
     
 }
-#page4-right{
-    width: 35%;
-    height: 100%;
-    border-right: 2px solid #373535;
+#upper{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
+#page4-right{
+    width: 43%;
+    height: 100%;   
+}
 #page4-right h1{
-     font-size: 55px;
+     font-size: 73px;
      font-family: Canopee,sans-serif;
+     font-weight: 100;
+     letter-spacing: -4px;
 }
 #page4-right h3{
-    font-size: 38px;
+    font-size: 43px;
     font-family: new, sans-serif;
     font-weight: 100;
     margin-top: 8px;
+    font-weight: 100;
 }
 #page4-right p{
     font-family: new , sans-serif;
@@ -312,51 +318,137 @@ html,body{
     font-weight: 900;
 }
 #page4-mid{
-    margin-left: 60px;
-    width: 35%;
+    width: 57%;
     height: 100%;
-    padding: 10px 0;
-    
+    padding: 0 40px;
+    border-left:2px solid #a5a5a5;
 }
-#page4-mid #page4-img{
-    height: 100%;
-    width: 100%;
+ #page4-mid #page4-img{
+    height: 60%;
+    width: 90%;
+    overflow: hidden;
+}
+#page4-img img{
+     height: 100%;
+     width: 100%;
     object-fit: cover;
     transition:all ease 0.5s;
 }
-#page4-img img{
-   
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
-}
 #page4-img:hover img{
-    scale:1.1;
+    scale:1.1;  
 }
+
 #page4-mid h3{
-    font-size: 25px;
+    font-size: 30px;
     font-family: new , sans-serif;
     margin-top: 8px;
     font-weight: 900;
     letter-spacing: -2px;
 }
 #page4-mid p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: new;
+    margin-top: 8px;
+    width: 400px;
+   
 }
 #lower{
-   margin-top: 50px;
-   object-fit: cover;
-   margin-left: 2%;
+   width: 100%;
+   height: 70%;
+   padding: 20px 0 0 0;  
+  
 }
-#lower img{
-    
-    height: 50%;
-    width: 90%;
+#lower #lower-img{
+    padding: 42px 0 0 0 ;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;   
     
 }
-
+#lower-img img{
+    width: 95%;  
+    object-fit: cover;
+}
 
 #content-right{
-    width: 30%;
+   
+    width: 32%;
+    height: 100%;
+    border-left:2px solid #a5a5a5;
+   
+}
+#right-content{
+    padding: 0 20px ;
+}
+#right-content h1{
+     font-size: 100px;
+     font-family: Canopee;
+     font-weight: 100;
+     letter-spacing: -3px;
+     line-height: 120px;
+}
+#right-content h1 span{
+    font-size:200px;
+}
+#right-content p{
+    font-size:33px;
+    font-family: new, sans-serif;
+    margin-top: 20px;
+    font-weight: 100;
+}
+#right-content p span{
+    font-size: 100px;
+    font-weight: bold;     
+    color: #C4BCB3;
+    background-color: black;
+    padding: 0px 8px;      
+    margin-right: 10px;    
+    float: left;
+    font-family: Canopee,sans-serif;
+    border-radius: 3px;  
+}
+
+#right-content h3{
+    font-size: 30px;
+    font-family: new, sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+#right-content #round{
+    margin-top: 40px;
+    height: 260px;
+    width: 100%;
+    border: 1px solid #2f2f2fc6;
+    background-color: #CAC1B6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+}
+#round h1{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: Canopee;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    transform: translateX(-40%);
+    transition: all ease 0.6s;
+}
+#round img{
+    height: 60px;   
+    transform: translateX(-120%);
+    transition: all ease 0.6s;  
+}
+#round:hover img{
+    transform: translateX(73%); 
+}
+#round:hover h1{
+    transform: translateX(100%); 
 }
