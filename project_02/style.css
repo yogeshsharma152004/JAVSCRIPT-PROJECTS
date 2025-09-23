@@ -452,3 +452,137 @@ html,body{
 #round:hover h1{
     transform: translateX(100%); 
 }
+#page5{
+    width: 100%;
+    padding: 50px 0;
+    height: 40vh;
+    background-color: #CAC1B6;
+}      
+#inner{
+    height: 100%;
+    /*background-color: red;*/
+    margin:0 2%;
+    padding: 40px 0;
+    border-top:2px solid #a5a5a5;
+    border-bottom: 2px solid #a5a5a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#first{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /*background-color: #B43B12;*/
+}
+#first-left h2{
+    font-size:25px;
+    font-family:new, sans-serif;
+    font-weight: 100;
+}
+#first-left h1{
+    font-size: 70px;
+    font-family: Canopee;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+#first-right{
+    margin-left: 10px;
+}
+#first-right h2{
+    font-size: 160px;
+    font-family: Germgoth;
+    font-weight: 400;
+}
+
+#second{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /*background-color: #B43B12;*/
+}
+#second-left h2{
+    font-size:25px;
+    font-family:new, sans-serif;
+    font-weight: 100;
+}
+#second-left h1{
+    font-size: 70px;
+    font-family: Canopee;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+#second-right{
+    margin-left: 10px;
+}
+#second-right h2{
+    font-size: 160px;
+    font-family: Germgoth;
+    font-weight: 500;
+}
+
+#third{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /*background-color: #B43B12;*/
+}
+#third-left h2{
+    font-size:25px;
+    font-family:new, sans-serif;
+    font-weight: 100;
+}
+#third-left h1{
+    font-size: 70px;
+    font-family: Canopee;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+#third-right{
+    margin-left: 10px;
+}
+#third-right h2{
+    font-size: 160px;
+    font-family: Germgoth;
+    font-weight: 400;
+}
+
+#forth{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /*background-color: #B43B12;*/
+}
+#forth-left h2{
+    font-size:25px;
+    font-family:new, sans-serif;
+    font-weight: 100;
+}
+#forth-left h1{
+    font-size: 70px;
+    font-family: Canopee;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+#forth-right{
+    margin-left: 10px;
+}
+#forth-right h2{
+    font-size: 160px;
+    font-family: Germgoth;
+    font-weight: 400;
+}
+
