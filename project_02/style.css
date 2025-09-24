@@ -585,4 +585,52 @@ html,body{
     font-family: Germgoth;
     font-weight: 400;
 }
-
+#page6{
+   padding: 25px 0;
+    width: 100%;
+    background-color: #CAC1B6;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y:hidden;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+#page6::-webkit-scrollbar{
+    display: none;
+}
+#page6 h1{
+   
+    font-size: 60px;
+    font-family: new , sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 30px;
+    animation-name:scroll ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+#page6 h1 span{
+    font-family: new, sans-serif;
+     background-color:#1e1e1e;
+     color: #C4BCB3;
+     padding: 0 12px;
+     
+  
+}
+#page7{
+   padding: 30px 0;
+    width: 100%;
+    background-color: #CAC1B6;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+#page6:hover h1{
+    animation-play-state: paused;
+}
